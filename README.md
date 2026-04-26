@@ -15,22 +15,23 @@
 - NumPy
 
 ## Структура проекта
+```
 airline-delay-analysis/
 ├── data/
 │   └── Airline_Delay_Cause.csv
 ├── src/
 │   ├── __init__.py
-│   ├── preprocessing.py       # очистка, новые признаки
+│   ├── preprocessing.py       # очистка
 │   ├── analysis.py            # сводные таблицы (аэропорты, авиакомпании, причины)
 │   ├── visualization.py       # статические и интерактивные графики
-│   ├── benchmark.py           # сравнение Pandas vs Polars
-│   └── main.py                # главный скрипт → запуск всех этапов
+│   ├── benchmark.py           # сравнение Pandas и Polars
+│   └── main.py                # запуск всех этапов
 ├── reports/
 │   ├── static/                # PNG-графики (Seaborn)
 │   └── interactive/           # HTML-дашборды (Plotly)
 ├── requirements.txt
 └── README.md
-
+```
 ## Запуск
 
 1. **Клонируйте репозиторий**
