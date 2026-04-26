@@ -35,10 +35,12 @@ airline-delay-analysis/
 ## Запуск
 
 1. **Клонируйте репозиторий**
-2. **Поместите файл данных** `Airline_Delay_Cause.csv` в папку `data/`.
-3. **Установите зависимости**:
+   ```bash
+   git clone https://github.com/Sm1rnov10/airline-delay-analysis.git
+3. **Поместите файл данных** `Airline_Delay_Cause.csv` в папку `data/`.
+4. **Установите зависимости**:
    ```bash
    pip install -r requirements.txt
-4. **Запустите проект**
+5. **Запустите проект**
    ```bash
    python src/main.py
