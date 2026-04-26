@@ -16,16 +16,18 @@
 
 ## Структура проекта
 airline-delay-analysis/
-├── data/ # сюда положить CSV-файл
-├── src/ # исходный код
-│ ├── preprocessing.py # очистка, создание признаков
-│ ├── analysis.py # агрегации и группировки
-│ ├── visualization.py # все графики
-│ ├── benchmark.py # сравнение Pandas vs Polars
-│ └── main.py # запуск всего анализа
-├── reports/ # результаты (создаётся автоматически)
-│ ├── static/ # PNG-графики Seaborn
-│ └── interactive/ # HTML-дашборды Plotly
+├── data/
+│   └── Airline_Delay_Cause.csv
+├── src/
+│   ├── __init__.py
+│   ├── preprocessing.py       # очистка, новые признаки
+│   ├── analysis.py            # сводные таблицы (аэропорты, авиакомпании, причины)
+│   ├── visualization.py       # статические и интерактивные графики
+│   ├── benchmark.py           # сравнение Pandas vs Polars
+│   └── main.py                # главный скрипт → запуск всех этапов
+├── reports/
+│   ├── static/                # PNG-графики (Seaborn)
+│   └── interactive/           # HTML-дашборды (Plotly)
 ├── requirements.txt
 └── README.md
 
